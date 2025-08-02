@@ -16,6 +16,7 @@ Pre-requirements:
 15. Run Test Suite dan klik Android
     
 **---Skenario Switch Case Test Case Create Category :**
+
 def scenario = 'input category'
 
 switch (scenario) {
@@ -43,6 +44,7 @@ switch (scenario) {
 }
 
 **----Skenario Switch Case Test Case Create Task :**
+
   def scenario = 'input task'
 
 switch (scenario) {
