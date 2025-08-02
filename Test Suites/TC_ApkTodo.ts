@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TC_ApkTodo</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>2b4d4d15-c8af-481b-af08-024a513a8184</testSuiteGuid>
+   <testCaseLink>
+      <guid>c158cf50-d365-4d4c-8fa0-942742faec4a</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create_Task</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7dc4aeb9-7ba1-4823-b1e9-43df49d43a29</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Raw Data/dataTask (1)</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>7dc4aeb9-7ba1-4823-b1e9-43df49d43a29</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>title</value>
+         <variableId>4f9453f0-817f-4cf5-937c-102b8be4ac36</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>7dc4aeb9-7ba1-4823-b1e9-43df49d43a29</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>task</value>
+         <variableId>1c5834f2-8a09-4309-bfc5-81744b99b17e</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>da89cee4-5a84-4883-87c4-e63a0fe4eeed</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Create_Category</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>da34cb9d-6ea5-4427-b70b-29ebaab5ef90</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>03b57009-e4c9-454f-9189-70c473eb9569</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Delete_Category</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_Category</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>77984181-6c3f-4287-9492-d2ae289433a8</testCaseGuid>
+   <variable>
+      <defaultValue>'Sport'</defaultValue>
+      <description></description>
+      <id>da34cb9d-6ea5-4427-b70b-29ebaab5ef90</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+</TestCaseEntity>
