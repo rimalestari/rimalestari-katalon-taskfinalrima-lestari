@@ -20,7 +20,9 @@ Pre-requirements:
 def scenario = 'input category'
 
 switch (scenario) {
+
     case 'input_category_success':
+    
         Mobile.setText(findTestObject('Object Repository/Create_Category/android.widget.EditText - Enter category'), category, 
             0)
 
@@ -48,7 +50,9 @@ switch (scenario) {
   def scenario = 'input task'
 
 switch (scenario) {
+
     case 'input_task_success':
+    
         Mobile.setText(findTestObject('Object Repository/Create_Task/android.widget.EditText - Enter task title'), title, 
             0)
 
@@ -74,6 +78,7 @@ switch (scenario) {
         break
 		
     case 'input_task_without_time':
+    
         Mobile.setText(findTestObject('Object Repository/Create_Task/android.widget.EditText - Enter task title'), title, 
             0)
 
@@ -97,6 +102,7 @@ switch (scenario) {
         Mobile.tap(findTestObject('Spyweb_Create_Task_Without_Time/android.widget.Button - BATAL'), 0)
 		
     default:
+    
         Mobile.setText(findTestObject('Object Repository/Create_Task/android.widget.EditText - Enter task title'), title, 
             0)
 
@@ -119,3 +125,4 @@ switch (scenario) {
 
         Mobile.tap(findTestObject('Spyweb_Create_Task_Without_Time/android.widget.Button - BATAL'), 0)}
 
+   }
